@@ -40,7 +40,7 @@ credit_risk_case_study/
 ### **Part 1: Predictive Risk Engine**
 
 * **The Problem:** Standard accuracy metrics (like F1-score) ignore the reality that a **False Negative (Default)** costs 10x more than a **False Positive (Opportunity Cost)**.
-* **The Solution:** I utilized a **Random Forest Classifier** but moved beyond the default  decision boundary. By plotting the **Total Business Cost Curve**, I identified **** as the optimal threshold.
+* **The Solution:** I utilized a **Random Forest Classifier** but moved beyond the default  decision boundary. By plotting the **Total Business Cost Curve**, I identified **0.14** as the optimal threshold.
 * **Result:** This strategy caught **58 out of 60 actual defaults**, significantly reducing catastrophic portfolio loss.
 
 ### **Part 2: Automated Bureau ETL**
@@ -51,7 +51,7 @@ credit_risk_case_study/
 ### **Part 3: Operational Logistics Audit**
 
 * **Analytics:** Using SQL window functions and aggregations, I analyzed mobility patterns in the "Biker" dataset.
-* **Finding:** A critical bottleneck occurs on **Sundays**, where average trip durations spike to ** minutes**. This suggests that while credit risk is optimized, the physical fleet is under-supplied during weekend peaks.
+* **Finding:** A critical bottleneck occurs on **Sundays**, where average trip durations spike to **80 minutes**. This suggests that while credit risk is optimized, the physical fleet is under-supplied during weekend peaks.
 
 ---
 
